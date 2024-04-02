@@ -11,6 +11,7 @@ use craft\db\Query;
 use craft\db\Table;
 use craft\elements\Entry;
 use craft\elements\User;
+use craft\fields\Matrix;
 use craft\helpers\ArrayHelper;
 use craft\helpers\Json;
 use craft\migrations\BaseContentRefactorMigration;
@@ -196,7 +197,7 @@ class m240115_000000_craft5 extends BaseContentRefactorMigration
                 'maxEntries' => ArrayHelper::remove($fieldConfig['settings'], 'maxBlocks'),
                 'minEntries' => ArrayHelper::remove($fieldConfig['settings'], 'minBlocks'),
                 'entryTypes' => array_map(fn(EntryType $entryType) => $entryType->uid, $fieldEntryTypes),
-                'viewMode' => SuperTableField::VIEW_MODE_BLOCKS,
+                'viewMode' => Matrix::VIEW_MODE_BLOCKS,
             ];
             unset($fieldConfig['settings']['contentTable']);
 
