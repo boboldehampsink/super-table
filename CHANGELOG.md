@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.0-beta.2 - 2024-04-03
+
+### Fixed
+- Fix some Craft 5 migration issues. (thanks @brandonkelly).
+
 ## 4.0.0-beta.1 - 2024-03-04
 
 ### Changed
