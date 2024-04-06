@@ -100,6 +100,14 @@
       "oAP" : "\/src\/base",
       "oF" : 0
     },
+    "\/src\/console\/controllers\/utils\/PruneOrphanedSuperTableBlocksController.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/console\/controllers\/utils\/PruneOrphanedSuperTableBlocksController.php",
+      "oF" : 0
+    },
     "\/src\/elements" : {
       "ft" : 65536,
       "oA" : 1,
