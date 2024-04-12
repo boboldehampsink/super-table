@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.0-beta.3 - 2024-04-12
+
+### Added
+- Add support for `Fields::EVENT_DEFINE_COMPATIBLE_FIELD_TYPES` when converting to Matrix, to remove warning about changing Super Table to Matrix fields.
+- Add `super-table/migrate` console command to convert Super Table fields to Matrix fields.
+
 ## 4.0.0-beta.2 - 2024-04-03
 
 ### Fixed
