@@ -1,21 +1,14 @@
 # Changelog
 
-## 4.0.0-beta.3 - 2024-04-12
+## 4.0.0 - 2024-05-20
+> {note} Super Table has now reached its end-of-life. Read more in the [announcement](https://verbb.io/blog/so-long-super-table).
 
 ### Added
-- Add support for `Fields::EVENT_DEFINE_COMPATIBLE_FIELD_TYPES` when converting to Matrix, to remove warning about changing Super Table to Matrix fields.
 - Add `super-table/migrate` console command to convert Super Table fields to Matrix fields.
-
-## 4.0.0-beta.2 - 2024-04-03
-
-### Fixed
-- Fix some Craft 5 migration issues. (thanks @brandonkelly).
-
-## 4.0.0-beta.1 - 2024-03-04
 
 ### Changed
 - Now requires PHP `8.2.0+`.
-- Now requires Craft `5.0.0-beta.1+`.
+- Now requires Craft `5.0.0+`.
 
 ## 3.0.12 - 2023-10-05
 
