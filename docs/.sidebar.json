@@ -3,7 +3,7 @@
         "title": "Get Started",
         "collapsable": false,
         "children": [
-            "get-started/introduction"
+            "get-started/installation-setup"
         ]
     }
 ]
