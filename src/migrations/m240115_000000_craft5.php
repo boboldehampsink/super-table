@@ -230,6 +230,9 @@ class m240115_000000_craft5 extends BaseContentRefactorMigration
         }
 
         if (!empty($typeIdMap)) {
+            // disable FK checks for all of this
+            $this->db->createCommand()->checkIntegrity(false)->execute();
+
             // entrify the Super Table blocks
             $typeIdSql = 'CASE';
             foreach ($typeIdMap as $oldId => $newId) {
@@ -277,6 +280,8 @@ SQL,
                 ['type' => 'verbb\supertable\elements\SuperTableBlockElement'],
                 updateTimestamp: false,
             );
+
+            $this->db->createCommand()->checkIntegrity(true)->execute();
         }
 
         // drop the old Super Table tables
