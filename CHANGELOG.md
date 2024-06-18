@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.1 - 2024-06-18
+
+### Fixed
+- Disable FK checks when migrating Matrix block data. (thanks @brandonkelly).
+
 ## 4.0.0 - 2024-05-20
 > {note} Super Table has now reached its end-of-life. Read more in the [announcement](https://verbb.io/blog/so-long-super-table).
 
