@@ -20,6 +20,7 @@ use craft\models\FieldLayout;
 use craft\services\ProjectConfig;
 
 use yii\console\Exception;
+use yii\db\Exception as DbException;
 use yii\helpers\Inflector;
 
 class m240115_000000_craft5 extends BaseContentRefactorMigration
